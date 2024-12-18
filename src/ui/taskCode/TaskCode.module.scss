@@ -1,0 +1,31 @@
+@import "../../global.scss";
+
+.pink {
+  color: #c678bc;
+}
+
+.grey {
+  color: #948273;
+}
+
+.green {
+  color: #6cac6a;
+}
+
+.blue {
+  color: #3e8edf;
+}
+
+.red {
+  color: #c3463d;
+}
+
+.main {
+  font-family: $fontNunito;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 20px;
+  background: #282c34;
+  @include flexDirec(5px);
+  color: white;
+}

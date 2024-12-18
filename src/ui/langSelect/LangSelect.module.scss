@@ -1,0 +1,57 @@
+@import "../../global.scss";
+
+.main {
+  position: relative;
+  display: inline-block;
+}
+
+.mainBtn {
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $fontNunito;
+  font-weight: 600;
+  font-size: clamp(16px, 2.5vw, 20px);
+  color: #fff;
+  background: #889ca2;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background: #718e97;
+  }
+}
+
+// Стили для выпадающего списка
+.dropdown {
+  margin-top: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #2c3e4f;
+  border: 1px solid #718e97;
+  border-radius: 5px;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.optionBtn {
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: $fontNunito;
+  padding: 6px 10px;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    background: #718e97;
+  }
+}

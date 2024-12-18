@@ -1,0 +1,21 @@
+#root {}
+
+.redactorTaskWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+
+    /* Добавьте отступы между элементами */
+}
+
+@media (max-width: 768px) {
+    .redactorTaskWrap {
+        flex-direction: column;
+        /* Размещаем блоки друг под другом */
+        align-items: stretch;
+        /* Растягиваем блоки на всю ширину */
+    }
+}

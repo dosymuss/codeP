@@ -1,0 +1,14 @@
+{
+  "execute": [
+    {
+      "id": "1",
+      "code": "console.log(true);",
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "code": "SyntaxError: Unexpected token",
+      "status": "error"
+    }
+  ]
+}
